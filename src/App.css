@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+.sec1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('cute2.jpg');
+  background-position: 20%;
+  background-size: cover;
+}
+.name{
+  top: 30%;
+  transform: translateY(-50%);
+  font-family: 'Hachi Maru Pop', cursive;
+  width:100%;
+  position: absolute;
+  color: #89C7E7;
+  z-index: 1;
+
+}
+
+
+.sec2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdfd96;
+}
+
+.sec3{
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.sec4{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdfd96;
+}
+.sec5{
+  height: 110vh;
+  width: 100vw;
+  background-color: white;;
+}
+.sec6 {
+  height: 30vh;
+  width: 100vw;
+  background-color: #fdfd96;
+}
+
+.footer .creds{
+  font-size: xx-small;
+}
+.footer .cred2 {
+  font-size: small;
+}
+.nav-item{
+  text-align: left;
+}
+#r-content {
+  padding: 5%;
+}
+#r-content h2 {
+  font-family: 'Recursive', sans-serif;
+  color: #89C7E7;
+  font-weight: 200;
+  font-size: 32px;
+  text-align: center;
+  line-height: 28px;
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+  #r-content{
+    padding: 18%;
+  }
+  #r-content h2{
+    margin-top: 12px;
+    font-size: 26px;
+  }
+  #r-content h3 {
+    font-size: medium;
+  }
+  .creds {
+    margin-left: 70px;
+    display: inline !important;
+    font-size: xx-small;
+  }
+
+
+  
+ 
+
+
+}
