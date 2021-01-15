@@ -45,16 +45,24 @@
   background-size: cover;
 }
 .name{
-  top: 30%;
+  top: 35%;
   transform: translateY(-50%);
-  font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'Yusei Magic';
   width:100%;
   position: absolute;
   color: #89C7E7;
   z-index: 1;
 
 }
-
+.moving-letters {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 200px;
+}
 
 .sec2 {
   height: 100vh;
@@ -73,13 +81,20 @@
   width: 100vw;
   background-color: #fdfd96;
 }
+.sec4 h4{
+  font-size: 14px;
+}
+.details{
+  display: inline-block; 
+  text-align: left;
+}
 .sec5{
   height: 110vh;
   width: 100vw;
   background-color: white;;
 }
 .sec6 {
-  height: 30vh;
+  height: 25vh;
   width: 100vw;
   background-color: #fdfd96;
 }
@@ -97,12 +112,24 @@
   padding: 5%;
 }
 #r-content h2 {
+  font-family: 'Yusei Magic', sans-serif;
+  color: #89C7E7;
+  font-weight: 200;
+  font-size: 32px;
+  text-align: center;
+  line-height: 28px;
+}
+#socials{
   font-family: 'Recursive', sans-serif;
   color: #89C7E7;
   font-weight: 200;
   font-size: 32px;
   text-align: center;
   line-height: 28px;
+  padding: 3%;
+}
+.details {
+  padding-top: 9px;
 }
 
 
@@ -110,7 +137,7 @@
 
 @media only screen and (max-width: 500px){
   #r-content{
-    padding: 18%;
+    padding: 14%;
   }
   #r-content h2{
     margin-top: 12px;
@@ -123,6 +150,12 @@
     margin-left: 70px;
     display: inline !important;
     font-size: xx-small;
+  }
+  .sec4 {
+    height: 118vh;
+  }
+  #socials h2{
+    font-size: 25px;
   }
 
 
