@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import paw from './print.png';
 
 
 class Section4 extends Component {
@@ -6,7 +7,7 @@ class Section4 extends Component {
       return (
         <div className="sec4" id="pricing">
             <div id="r-content">
-                <h2>Pricing</h2>
+                <h2>Pricing<img src={paw} style={{height: '60px', width: '60px', padding: '15px',marginBottom:'10px'}}/></h2>
                 <div className="details">
                   <h4>Small dogs - less than 30lbs</h4>
                   <h4>Large dogs - 30lbs and up</h4>

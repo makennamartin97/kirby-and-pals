@@ -12,7 +12,7 @@ class Section1 extends Component {
           <div className="back">
             <div className="name animated fadeIn">
               <Typical
-              steps={[1800, 'Dog walking service serving the local Virginia area', 1500]}
+              steps={[2000, 'Dog walking service serving the local Virginia area', 2700]}
               loop={1}
               wrapper="h4"
               />

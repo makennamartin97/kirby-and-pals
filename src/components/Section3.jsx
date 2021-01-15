@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import paw from './print.png';
 
 
 class Section3 extends Component {
@@ -6,7 +7,7 @@ class Section3 extends Component {
       return (
         <div className="sec3" id="reviews">
             <div id="r-content">
-                <h2>Reviews</h2>
+                <h2>Reviews<img src={paw} style={{height: '60px', width: '60px', padding: '15px',marginBottom:'10px'}}/></h2>
             </div>
           
               

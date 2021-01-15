@@ -14,7 +14,7 @@ const exampleStyle = {
 const Wave1 = () => (
     <div style={exampleStyle}>
       
-      <Wave text="Kirby & Pals" effect="stretch" effectChange={2.0} effectDuration={.65} speed={8.8} iterations={1}/>
+      <Wave text="Kirby & Pals" effect="stretch" effectChange={2.0} effectDuration={1.0} speed={11} iterations={1}/>
 
     </div>
   )
