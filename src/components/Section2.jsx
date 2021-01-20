@@ -14,10 +14,10 @@ class Section2 extends Component {
                 
             </div>
             <div className="row nopadding">
-              <div className="col-sm-12 col-md-6 ">
+              <div className="col-sm-12 col-md-6 nopadding">
                 <img src={dog} alt="Dog" id="dog" />
               </div>
-              <div className="col-sm-12 col-md-6 content">
+              <div className="col-sm-12 col-md-6 content ">
                 <p>words about rachel and her company will go here</p>
               </div>
             </div>

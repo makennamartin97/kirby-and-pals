@@ -142,7 +142,13 @@
   width: 300px;
 
 }
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 
+}
 
 
 
@@ -181,10 +187,7 @@
     
   }
 
-  .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
- }
+
  .content{
    padding: 10%;
  }
