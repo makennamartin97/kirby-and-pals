@@ -3,12 +3,13 @@ import React, {Component} from 'react';
 
 class Section5 extends Component {
     render() {
+        
       return (
         <div className="sec5" id="contact">
             <div id="r-content">
                 <h2>Message us here to book a walk or ask a question:</h2>
             </div>
-            <form>
+            <form >
                 <div className="">
                     <div className="col-8 form-group mx-auto">
                         <input type="text" className="form-control input" placeholder="Name" name="name"/>

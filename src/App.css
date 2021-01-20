@@ -134,6 +134,15 @@
 .details {
   padding: 10px 10px 4px 10px;
 }
+#dog{
+  border-radius: 5%;
+  transform: rotate(4.5deg);
+  border: 7px solid white;
+  height: 350px;
+  width: 300px;
+
+}
+
 
 
 
@@ -166,8 +175,22 @@
   .sec5{
     height: 100vh;
   }
+  #dog{
+    height: 220px;
+    width: 170px;
+    
+  }
+
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .content{
+   padding: 10%;
+ }
 
 }
+
 @media only screen and (max-width: 800px){
   .sec5{
     height: 100vh;
