@@ -7,9 +7,10 @@ const exampleStyle = {
     display: 'inline-block',
     fontFamily: 'Yusei Magic',
     
-    padding: '4em 1em 1em 1em',
+    padding: '2.5em 1em 1em 1em',
     width: '80%',
     fontSize: '1.9rem',
+    color: '#fdfd96',
   }
 const Wave1 = () => (
     <div style={exampleStyle}>
